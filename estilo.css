@@ -19,6 +19,11 @@
     margin: auto;
     display: none;
 }
+.cross{
+    float: right;
+    margin: auto;
+    display: none;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -49,13 +54,9 @@ li a:hover {
         width: 100%;
     }
     #listHead{
-        float: left;
         clear: both;
         width: 100%;
-    }
-    #listHead > li{
-        width: 100%;
-        clear: both;
+        display: none;
     }
     .hamburger{
         display: block;
