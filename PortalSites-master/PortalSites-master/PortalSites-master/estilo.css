@@ -1,0 +1,104 @@
+*{
+	margin: 0 0 0 0;
+}
+#cabecinha{
+	font-family: 'Raleway', sans-serif;
+	font-size: 39px;
+	width: 50%;
+	text-align: center;
+	float: left;
+	background-color: #EEE;
+}
+#listHead{
+	float: left;
+	clear: right;
+	width: 50%;
+}
+.hamburger{
+    float: right;
+    margin: auto;
+    display: none;
+}
+.cross{
+    float: right;
+    margin: auto;
+    display: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #EEE;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+@media 	(max-width: 480px){
+
+}
+
+#painel{
+   border: 2px black solid;
+   clear: left;
+   height: 350px;
+   margin: 0 auto;
+}
+
+
+#p1 {
+    position:relative;
+    width: 16.6%;
+    height: 350px;
+    border: 2px  black solid;
+    float: left;
+}
+#p2 {
+    position:relative;
+    width: 16.6%;
+    height: 350px;
+    border: 2px  black solid;
+    float: left;
+}
+#p3 {
+   position:relative;
+    width: 16.6%;
+    height: 350px;
+    border: 2px  black solid;
+    float: left;
+}
+#p4 {
+   position:relative;
+    width: 16.6%;
+    height: 350px;
+    border: 2px  black solid;
+    float: left;
+}
+#p5{
+    position:relative;
+    width: 16.6%;
+    height: 350px;
+    border: 2px  black solid;
+    float: left;
+}
+#p6{
+    position:relative;
+    width: 16.6%;
+    height: 350px;
+    border: 2px  black solid;
+    float: left;
+}

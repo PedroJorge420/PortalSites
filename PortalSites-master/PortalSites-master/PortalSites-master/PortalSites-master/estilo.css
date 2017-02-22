@@ -49,5 +49,16 @@ li a:hover {
 }
 
 @media 	(max-width: 480px){
-   
+    #cabecinha{
+        clear: both;
+        width: 100%;
+    }
+    #listHead{
+        clear: both;
+        width: 100%;
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
 }
