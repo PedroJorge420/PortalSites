@@ -1,19 +1,34 @@
 *{
 	margin: 0 0 0 0;
 }
-.conteiner{
-    margin: 0 auto;
+body{
+    font-size: 35px;
+    color: transparent;
     width: 100%;
-    position: relative;
-    min-height: 100%;
+    position: absolute;
 
-    background-image: url("img/back.jpg");
+    background-image: url("img/b4.png");
     background-position: 50% 0;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% auto;
-    opacity: 0.9;
-    filter: alpha(opacity=50);
+    background-attachment: scroll;
+    background-size: 100%;
+}
+.base{
+    position: fixed;
+    width: 100%;
+    height: 1000px;
+}
+#p1{
+    background: url("img/b1.png") no-repeat 0px 200px;
+}
+#p2{
+    background: url("img/b2.png") no-repeat 600px 400px;
+}
+#p3{
+    background: url("img/b3.png") no-repeat 700px 10px;
+}
+#p4{
+    background: url("img/b1.png") no-repeat 1000px 600px;
 }
 #cabecinha{
 	font-family: 'Raleway', sans-serif;
@@ -22,67 +37,4 @@
 	text-align: center;
 	float: left;
 	background-color: #EEE;
-}
-#listHead{
-	float: left;
-	clear: right;
-	width: 50%;
-}
-.hamburger{
-    float: right;
-    margin: auto;
-    display: none;
-}
-.cross{
-    float: right;
-    margin: auto;
-    display: none;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #EEE;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: orange;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
-}
-
-@media 	(max-width: 480px){
-
-}
-
-#painel{
-   position: relative;
-   clear: both;
-   width: 98%;
-   top: 30px;
-   margin: 0 auto;
-}
-
-#painel[background-image]{
-    -webkit-filter: blur(15px);
-    -moz-filter: blur(15px);
-    -o-filter: blur(15px);
-    -ms-filter: blur(15px);
-    filter: blur(15px);
-}
-
-#painel > *{
-    width: 16.6%;
-    float: left;
 }

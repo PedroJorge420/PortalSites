@@ -1,12 +1,13 @@
-$('.parallax-window').each(function(){
-	var $obj = $(this);
- 
-	$(window).scroll(function() {
-		var yPos = -($(window).scrollTop() / $obj.data('speed')); 
- 
-		var bgpos = '50% '+ yPos + 'px';
- 
-		$obj.css('background-position', bgpos );
- 
-	}); 
-});
+function parallax(){
+			// Declarando as var.
+			var layer_1 = document.getElementById('p1');
+			var layer_2 = document.getElementById('p2');
+			var layer_3 = document.getElementById('p3');
+			var layer_4 = document.getElementById('p4');
+			// Aplicando a posição
+			layer_1.style.top = -(window.pageYOffset / 3) + 'px';
+			layer_2.style.top = -(window.pageYOffset / 6) + 'px';
+			layer_3.style.top = -(window.pageYOffset / 7) + 'px';
+			layer_4.style.top = -(window.pageYOffset / 7) + 'px';
+		}
+		window.addEventListener("scroll", parallax, false);
