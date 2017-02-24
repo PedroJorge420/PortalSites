@@ -6,12 +6,6 @@ body{
     color: transparent;
     width: 100%;
     position: absolute;
-
-    background-image: url("img/b4.png");
-    background-position: 50% 0;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: 100%;
 }
 .base{
     position: fixed;
@@ -19,7 +13,11 @@ body{
     height: 1000px;
 }
 #p1{
-    background: url("img/b1.png") no-repeat 0px 200px;
+    background: url("img/back.jpg") no-repeat 0px 0px;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
 }
 #p2{
     background: url("img/b2.png") no-repeat 600px 400px;
@@ -29,6 +27,9 @@ body{
 }
 #p4{
     background: url("img/b1.png") no-repeat 1000px 600px;
+}
+#p5{
+    background: url("img/b1.png") no-repeat 0px 200px;
 }
 #cabecinha{
 	font-family: 'Raleway', sans-serif;

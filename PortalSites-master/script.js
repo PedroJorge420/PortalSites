@@ -5,9 +5,9 @@ function parallax(){
 			var layer_3 = document.getElementById('p3');
 			var layer_4 = document.getElementById('p4');
 			// Aplicando a posição
-			layer_1.style.top = -(window.pageYOffset / 3) + 'px';
-			layer_2.style.top = -(window.pageYOffset / 6) + 'px';
-			layer_3.style.top = -(window.pageYOffset / 7) + 'px';
-			layer_4.style.top = -(window.pageYOffset / 7) + 'px';
+			layer_1.style.top = -(window.pageYOffset / 10) + 'px';
+			layer_2.style.top = -(window.pageYOffset / 5) + 'px';
+			layer_3.style.top = -(window.pageYOffset / 3) + 'px';
+			layer_4.style.top = -(window.pageYOffset / 1) + 'px';
 		}
 		window.addEventListener("scroll", parallax, false);
